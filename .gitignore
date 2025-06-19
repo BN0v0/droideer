@@ -1,0 +1,12 @@
+node_modules/
+*.log
+*.png
+*.jpg
+*.jpeg
+.DS_Store
+.env
+coverage/
+dist/
+screenshots/
+.vscode/
+droideer-*.tgz

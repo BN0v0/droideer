@@ -1,0 +1,15 @@
+node_modules/
+.git/
+.github/
+test/
+coverage/
+.nyc_output/
+examples/
+docs/
+*.log
+.env
+.DS_Store
+src/**/*.test.js
+*.tgz
+.vscode/
+.idea/

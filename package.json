@@ -1,0 +1,60 @@
+{
+  "name": "droideer",
+  "version": "0.1.0",
+  "description": "The Puppeteer for Android - Control Android devices with familiar web automation syntax",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "dev": "node examples/basic-example.js",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js",
+    "prepublishOnly": "echo \"Publishing Droideer...\""
+  },
+  "keywords": [
+    "android",
+    "automation",
+    "testing",
+    "mobile",
+    "puppeteer",
+    "adb",
+    "scraping",
+    "ui-testing",
+    "app-testing",
+    "mobile-automation",
+    "android-testing",
+    "e2e-testing",
+    "mobile-scraping"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/droideer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/droideer/issues"
+  },
+  "homepage": "https://github.com/your-username/droideer#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
