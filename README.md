@@ -368,7 +368,7 @@ console.log('JSON responses:', apiAnalysis.data.jsonResponses.length);
 
 ## 🧪 Testing
 
-Droideer is perfect for end-to-end testing of Android applications. See [TESTING.md](./TESTING.md) for detailed testing guidelines.
+Droideer is perfect for end-to-end testing of Android applications.
 
 ``` javascript
 import { Droideer } from 'droideer';
