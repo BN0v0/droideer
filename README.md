@@ -29,7 +29,7 @@ Perfect for:
 ## 🔧 Android DevTools Companion
 
 Note: For a visual UI inspector and debugging experience similar to Chrome DevTools, check out our companion repository:
-Droideer DevTools 🛠️
+[Droideer Inspection Tools](https://github.com/BN0v0/droideer-inpection-tools) 🛠️
 
 ``` javascript
 import { Droideer } from 'droideer';
