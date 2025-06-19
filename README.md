@@ -31,20 +31,6 @@ Perfect for:
 Note: For a visual UI inspector and debugging experience similar to Chrome DevTools, check out our companion repository:
 [Droideer Inspection Tools](https://github.com/BN0v0/droideer-inpection-tools) 🛠️
 
-``` javascript
-import { Droideer } from 'droideer';
-
-const device = await Droideer.connect();
-const page = await device.launch('com.instagram.android');
-
-await page.type({ resourceId: 'login_username' }, 'john_doe');
-await page.type({ resourceId: 'password' }, 'secret123');
-await page.click({ text: 'Log In' });
-
-await page.waitForSelector({ text: 'Home' });
-await page.screenshot('logged-in.png');
-```
-
 ## ✨ Features
 
 ### Core Automation
