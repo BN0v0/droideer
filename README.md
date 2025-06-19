@@ -5,7 +5,6 @@
 **Puppeteer-like API for Android automation** \- Control Android devices with familiar web automation syntax for testing\, scraping\, and automation
 
 [![npm version](https://img.shields.io/npm/v/droideer?style=flat-square)](https://npmjs.com/package/droideer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)
 [![Android](https://img.shields.io/badge/Android-7%2B-green?style=flat-square&logo=android)](https://developer.android.com/)
 [![WIP](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow?style=flat-square)](https://github.com/your-repo/droideer)
